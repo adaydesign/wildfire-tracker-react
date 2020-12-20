@@ -1,0 +1,12 @@
+import { Icon } from '@iconify/react'
+import FireIcon from '@iconify/icons-mdi/fire-alert'
+
+const Header = () => {
+    return (
+        <header className="header">
+            <h1><Icon icon={FireIcon} /> Wildfire Tracker (Powered by NASA)</h1>
+        </header>
+    )
+}
+
+export default Header
